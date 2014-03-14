@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  Mail2Post
-Description:  Send all outgoing emails to a custom post type
+Description:  Create a post from outgoing emails instead of sending them
 Version:      1.0
 License:      GPL v2 or later
 Plugin URI:   https://github.com/lumpysimon/mail2post
@@ -13,7 +13,7 @@ Author URI:   https://twitter.com/lumpysimon
 	What it does
 	------------
 
-	Create a post for outgoing emails instead of sending them.
+	Create a post from outgoing emails instead of sending them.
 	The non-public custom post type 'post2mail' is used.
 
 	Please note that emails must be sent using the wp_mail function to be overridden.
@@ -52,6 +52,7 @@ Author URI:   https://twitter.com/lumpysimon
 	@TODO@
 	------
 
+	readme.txt
 	Meta box to show receipient on post edit screen (or possibly use a custom taxonomy?)
 	Check if there's a better way than null 'to' field to prevent email sending
 	Localisation
